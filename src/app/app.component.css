@@ -1,0 +1,80 @@
+html {
+    background-color: ghostwhite;
+}
+
+.feedContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.detailButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+    width: 200px;
+    padding: 25px;
+}
+
+.container {
+    height: 110px;
+    background-color: #20BAE7;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    width: 100%
+}
+
+button {
+    background-color: #eee;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: Arial;
+  }
+  
+  button:hover {
+    background-color: #cfd8dc;
+  }
+
+#description {
+    overflow: hidden;
+    position: relative; 
+    line-height: 1.2em;
+    max-height: 3.6em; 
+    text-align: justify;  
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+
+  #description:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #description:after {
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }
